@@ -17,6 +17,9 @@ const Header = () => {
           <li>
             <FaBars />
           </li>
+          <li>
+            <Link to={"/cadastro"}>Cadastro</Link>
+          </li>
         </ul>
       </nav>
     </header>

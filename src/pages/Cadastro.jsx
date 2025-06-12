@@ -37,6 +37,7 @@ const Cadastro = () => {
         className="flex flex-col gap-4 mx-auto w-full sm:w-[50%] md:w-[40%] lg:w-[30%] p-4"
       >
         <input
+          name="firstname"
           onChange={(e) => {
             setFirstname(e.target.value);
           }}
@@ -47,16 +48,18 @@ const Cadastro = () => {
           className="border p-2 rounded"
         />
         <input
+          name="surname"
           onChange={(e) => {
             setSurname(e.target.value);
           }}
-          type="text"
+          type="sobrenome"
           placeholder="Último sobrenome"
           required
           value={surname}
           className="border p-2 rounded"
         />
         <input
+          name="email"
           onChange={(e) => {
             setEmail(e.target.value);
           }}
@@ -67,6 +70,7 @@ const Cadastro = () => {
           className="border p-2 rounded"
         />
         <input
+          name="senha"
           onChange={(e) => {
             setPassword(e.target.value);
           }}
