@@ -12,7 +12,7 @@ const Cadastro = () => {
     e.preventDefault();
     try {
       const resposta = await axios.post(
-        "http://localhost:3000/v1/user/register",
+        "https://backendgt-vj33.onrender.com/v1/user/register",
         {
           firstname,
           surname,
